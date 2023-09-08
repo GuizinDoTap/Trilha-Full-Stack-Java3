@@ -1,0 +1,8 @@
+p{
+    border: 3px solid pink;
+    outline: 3px solid red;
+}
+
+.p2{
+    border-style: none;
+}

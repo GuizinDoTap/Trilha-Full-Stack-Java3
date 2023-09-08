@@ -1,0 +1,13 @@
+#p1{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#p2{
+    text-transform: lowercase;
+    word-spacing: 20px;
+}
+
+#p3{
+    text-transform: capitalize;
+}

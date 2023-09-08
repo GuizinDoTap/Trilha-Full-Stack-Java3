@@ -1,0 +1,24 @@
+/*
+div{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://i.gifer.com/XOsX.gif);
+    background-image: url(https://i.gifer.com/Z3zH.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid black;
+} 
+*/
+body{
+    background-repeat: repeat;
+    background-image: url("../IMAGEM/ti2.png");
+}
+
+@media only screen and (min-width: 700px){
+    body{
+        background-repeat: repeat;
+        background-image: url("../IMAGEM/ti-33.jpeg");
+        width: 100%;
+        height: 400px;
+    }
+}

@@ -1,0 +1,14 @@
+#d1{
+    text-align: center;
+}
+#d2{
+    text-align: left;
+}
+#d3{
+    text-align: right;
+}
+div{
+    border: 1px solid blue;
+    outline: 1px solid red;
+    text-align: justify;
+}

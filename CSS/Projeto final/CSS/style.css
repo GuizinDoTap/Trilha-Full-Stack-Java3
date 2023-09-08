@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+    font-size: 20px;
+}
+
+img{
+    margin-left: 40%;
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    position: relative;
+    left: 41%;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.sobre{
+    text-decoration: underline;
+    position: relative;
+    left: 10%;
+}
+
+.subtitulo{
+    text-decoration: underline;
+    position: relative;
+    left: 10%;
+}
+
+div{
+    border: 3px solid;
+}
+

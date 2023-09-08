@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+}
+
+#p1{
+    color: blueviolet;
+    border-style: solid;
+    margin-left: 30px;
+    padding-top: 30px;
+    width: 60%;
+    height: 80px;
+}
+
+#p2{
+    color: crimson;
+}
+
+#p3{
+    color: deeppink;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(214, 17, 132);
+}
+
+a:visited{
+    color: red;
+}

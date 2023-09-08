@@ -1,0 +1,79 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.gifer.com/2kju.gif"); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    color: #fff; 
+}
+
+header {
+    background-color: #111; 
+    color: #fff; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav {
+    margin-top: 10px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+.conteudo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+
+footer {
+    background-color: #111; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.imagem-jogo {
+    max-width: 400px; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+}
+
+a {
+    text-decoration: none; 
+    color: #007ACC; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}

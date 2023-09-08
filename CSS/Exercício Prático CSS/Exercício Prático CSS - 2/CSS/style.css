@@ -1,0 +1,97 @@
+/* Estilos globais */
+body {
+    background-color: #3498db;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.blue {
+    background-color: #3498db;
+}
+
+.green {
+    background-color: #2ecc71;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Estilos da lista ordenada */
+.roman-list {
+    list-style-type: lower-roman;
+    margin-left: 2rem;
+}
+
+/* Estilos do formulário de login */
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-form label,
+.login-form input,
+.login-form button {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.login-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+/* Estilos da galeria de imagens */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img2{
+    width: 200px;
+    height: 300px;
+}

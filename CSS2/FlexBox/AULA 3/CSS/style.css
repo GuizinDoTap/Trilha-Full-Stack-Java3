@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    background-color: #3cb4c4;
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    background-color: #f8c100;
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width:800px){
+    .flex-item-left, .flex-item-right{
+        flex: 100%;
+    }
+}

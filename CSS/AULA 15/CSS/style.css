@@ -1,0 +1,9 @@
+a:visited{
+    color: aquamarine;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: blue;
+}
