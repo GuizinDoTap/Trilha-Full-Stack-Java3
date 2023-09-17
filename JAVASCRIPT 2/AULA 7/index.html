@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iteráveis</title>
+    <script>
+        const letters = ['a', 'b', 'c'];
+
+        for (const x of letters){
+            console.log(x);
+        }
+
+        function myNumbers(){
+            let n = 0;
+            return {
+                next:function(){
+                    n+10;
+                    return{value:n};
+                }
+            };
+        }
+
+        const n = myNumbers();
+        n.next();
+        n.next();
+        n.next();
+
+        console.log(n.next().value);
+
+        myNumbers1 = {};
+        myNumbers1[Symbol.iterator] = function(){
+            let n = 0;
+            done = false;
+            return {
+                next(){
+                    n+=10;
+                    if (n == 110) {done = true}
+                    return {value:n, done:done};
+                }
+            };
+        }
+
+        let iterator = myNumbers1[Symbol.iterator]();
+        while (true){
+            const result = iterator.next();
+            if (result.done) break;
+            console.log(result.value);
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

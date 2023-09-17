@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Construtores </title>
+    <script>
+        function Person(first, last, age, color) {
+            this.firstname = first;
+            this.lastname = last;
+            this.age = age;
+            this.color = color;
+
+            this.name = function(){
+                return this.firstname + " " + this.lastname;
+            };
+        };
+
+        const myFather = new Person("Rodolfo", "Cruz", 23, "white");
+        console.log(myFather);
+
+        const x1 = new String();
+        const x2 = new Number();
+        const x3 = new Boolean();
+        const x4 = new Object();
+        const x5 = new Array();
+        const x6 = new Function();
+        const x7 = new Date();
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

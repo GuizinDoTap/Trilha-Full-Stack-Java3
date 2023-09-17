@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos</title>
+    <script>
+        const person = {
+            firstname: "Guilherme",
+            lastname: "Matheus",
+            id: 4845,
+        };
+
+        person.name = function(){
+            return this.firstname + " " + this.lastname;
+        };
+
+        console.log(person.name());
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

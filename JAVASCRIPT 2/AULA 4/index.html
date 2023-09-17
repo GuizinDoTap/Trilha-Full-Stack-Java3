@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+    <script>
+        const person = {
+            firstname: "Pablo",
+            lastname: "Sousa",
+            language: "pt-br",
+            get lang() {
+                return this.language;
+            }
+        };
+
+        console.log(person.lang);
+
+        const person1 = {
+            firstname: "Ronaldo",
+            lastname: "Arruda",
+            language: "none",
+            set lang(value) {
+                this.language = value;
+            }
+        };
+
+        person1.lang = "en_US";
+        console.log(person1.language);
+
+        const person2 = {
+            firstname: "Rodolfo",
+            lastname: "Cruz",
+            fullname: function() {
+                return this.firstname + " " + this.lastname;
+            }
+        };
+
+        console.log(person2.fullname());
+
+        const person3 = {
+            firstname: "Rodolfo",
+            lastname: "Cruz",
+            get fullname(){
+                return this.firstname + " " + this.lastname;
+            }
+        };
+        
+        console.log(person3.fullname());
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
