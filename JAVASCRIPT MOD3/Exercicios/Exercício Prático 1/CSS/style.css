@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://i.gifer.com/BhB1.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+#botao1 {
+    background-color: rgb(130, 127, 226);
+    font-family: "Arial";
+}
+#botao2 {
+    background-color: rgb(125, 125, 245);
+    font-family: "Arial";
+}
